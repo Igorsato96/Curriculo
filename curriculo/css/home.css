@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+#corpo {
+    display: flex;
+}
+
+#corpo .containerA {
+    background: #E5E5E5;
+    width: 20vw;
+ 
+}
+#corpo .containerA #perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#corpo .containerA #perfil img {
+    border-radius: 50%;
+    height: 174px;
+    width: 174px;
+}
+
+#corpo .containerA #descricao {
+    text-align: center;
+    font-family: Montserrat;
+   margin-top: 27px;
+    text-decoration: none;
+    color: #5F5F5F;
+ 
+}
+
+
+#corpo .containerA #descricao #text1 {
+    margin-bottom: 2px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+#corpo .containerA #descricao #text2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+
+#corpo .containerA #descricao #text3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #14ADDF; 
+    margin: 12px 0 33px;
+
+}
+#corpo .containerA #descricao .fa-envelope{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #0088B4;
+}
+#corpo .containerA #descricao #text4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    margin-left: 5px;
+    color: #0088B4;
+}
+
+#corpo .containerA #descricao #contatos #tel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+#corpo .containerA #descricao #contatos ul li {
+    margin-left: 24px;
+}
+
+#corpo .containerA #descricao .fa-phone-alt,
+#corpo .containerA #descricao li .fa-mobile {
+    display: flex;
+}
+
+#corpo .containerA #descricao  p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #646464;
+
+}
+#corpo .containerA #descricao .fa-phone-alt p,
+#corpo .containerA #descricao  .fa-mobile p{
+    display: flex;
+    padding-left: 6px;
+}
+#corpo .containerA #descricao #contatos ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 51px 0 5px 0;
+}
+#corpo .containerA #descricao #contatos .fa-linkedin,
+#corpo .containerA #descricao #contatos .fa-whatsapp{
+    color: #097396;
+    font-size: 20px;
+    margin: 28px 10px 42px 0;
+}
+
+#corpo .containerA #descricao .sobre .fas{
+    display: flex;
+    text-align: center;
+    margin: 0  0 24px 34px;
+    color: #0088B4;
+    
+  
+}
+#corpo .containerA #descricao .sobre p{
+    color: #0088B4;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    margin-left: 30px;
+}
+#corpo .containerB {
+   
+    width: 80vw;
+}
+
+#corpo .containerB .sobre_right .title,
+#corpo .containerB .graduacao_right .title,
+#corpo .containerB .skill_right .title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #097396;
+    text-transform: uppercase;
+    margin: 50px 0 0 0;
+}
+#corpo .containerB .sobre_right .title #title-sec{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #797979;
+    margin-top: 5px;
+}
+
+#corpo .containerB .sobre_right .title .fa-ellipsis-h,
+#corpo .containerB .graduacao_right .title .fa-ellipsis-h{
+    text-align: center;
+    color: #097396;
+    font-size: 20px;
+}
+
+#corpo .containerB .sobre_right .sub-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #0088B4;
+    margin: 19px 0 30px 0;
+}
+#corpo .containerB .sobre_right .container{
+    margin: 0 266px;
+}
+#corpo .containerB .sobre_right .container p,
+#corpo .containerB .graduacao_right .container p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #373737;
+    margin-bottom: 30px;
+}
+
+#corpo .containerB .skill_right .sub-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #0FB853;
+    margin: 19px 0 30px 0;
+}
+
+#corpo .containerB .skill_right .part1,
+#corpo .containerB .skill_right .part2{
+    display: flex; 
+}
+
+#corpo .containerB .skill_right .part2{
+    margin-top: 29px;
+}
+#corpo .containerB .skill_right #habilidades .opcoes{
+    background: #ECEDF1;
+    border-radius: 8px;
+}
+
+#corpo .containerB .skill_right #habilidades .opcoes p{
+    font-family: Montserrat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;  
+}
+
+#corpo .containerB .skill_right #habilidades .usabilidades{
+    margin-left: 150px;
+    width: 162px;
+    height: 44px
+}
+
+#corpo .containerB .skill_right #habilidades .responsividade{
+    margin-left: 26px;
+    width: 182px;
+    height: 44px;
+}
+
+#corpo .containerB .skill_right #habilidades .animacoes{
+    margin-left: 26px;
+    width: 142px;
+    height: 44px;
+}
+
+#corpo .containerB .skill_right #habilidades .html5,
+#corpo .containerB .skill_right #habilidades .css3{
+    margin-left: 26px;
+    width: 102px;
+    height: 44px;
+}
+
+#corpo .containerB .skill_right #habilidades .javascript{
+    margin-left: 26px;
+    width: 144px;
+    height: 44px;
+}
+
+
+#corpo .containerB .skill_right #habilidades .node{
+    margin-left: 453px;
+    width: 102px;
+    height: 44px
+}
+
+#corpo .containerB .skill_right #habilidades .php,
+#corpo .containerB .skill_right #habilidades .laravel,
+#corpo .containerB .skill_right #habilidades .mysql{
+    margin-left: 26px;
+    width: 102px;
+    height: 44px
+}
